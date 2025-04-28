@@ -1,25 +1,24 @@
 {
-  "devDependencies": {
-    "@eslint/js": "^9.25.1",
-    "eslint": "^9.25.1",
-    "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-prettier": "^5.2.6",
-    "globals": "^16.0.0",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.5.1",
-    "prettier": "^3.5.3"
-  },
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "prepare": "husky",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"안녕하세요? 저는 테스트 스크립트입니다.\" && exit 1",
+    "prepare": "husky"
   },
-  "lint-staged": {
-    "**/*.{js,jsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "**/*.{html,css,json,md}": [
-      "prettier --write"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llleeco/kb16_git_20250428.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llleeco/kb16_git_20250428/issues"
+  },
+  "homepage": "https://github.com/llleeco/kb16_git_20250428#readme",
+  "description": "",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.1"
   }
 }
