@@ -1,6 +1,7 @@
 ## 🦄 Welcome to Magical Project
 
 "아 깃 개 힘들다 미치겠다 ㅋㅋㅋ"
+"영호님 파이팅"
 
 ## 🚀 프로젝트 소개
 
